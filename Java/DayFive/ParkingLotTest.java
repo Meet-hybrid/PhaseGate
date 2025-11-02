@@ -6,7 +6,7 @@ public class ParkingLotTest {
     @Test
     public void testIfFunctionExists() {
         ParkingLot lot = new ParkingLot();
-        int result = lot.enterCar(); // just call the function
+        int result = lot.enterCar(); 
         assertTrue(result >= 1 || result == -1);
     }
 
